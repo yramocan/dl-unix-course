@@ -30,7 +30,7 @@
 - `memo2`
 - `memo2.sv`
 
-4. **What would be the output of the following commands?(Note, ranges in globs are guaranteed to work properly only in the POSIX locale, so assume that.)**
+4a. **What would be the output of the following commands?(Note, ranges in globs are guaranteed to work properly only in the POSIX locale, so assume that.)**
 
     ```sh
     echo *
@@ -56,7 +56,7 @@
     - `echo jan?? feb?? mar??` prints any 5-character filenames which begin with `jan`, `feb`, or `mar`.
     - `echo [fjm][ae][bnr]*` prints all filenames that begin with either `f`, `j`, or `m` followed by `a` or `e` then `b`, `n`, or `r`. As a result, `feb96 jan12.02 jan19.02 jan26.02 jan5.02 jan95 jan96 jan97 jan98 mar98` is printed to the console.
 
-4. **What is the effect of the following:**
+4b. **What is the effect of the following:**
 
     ```sh
     ls | wc -l
