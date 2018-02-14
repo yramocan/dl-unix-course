@@ -19,8 +19,8 @@
 
 2. **What will be the effect of the following commands?**
 
-    - `who | grep 'mary'`
-    - `who | grep '^mary'`
+    - `who | grep 'mary'`: Prints all user instances containing text matching "mary".
+    - `who | grep '^mary'`: Prints all user instances beginning with text matching "mary".
     - `grep '[Uu]nix' ch?/*`
     - `ls -l | sort -k 5nr`
     - `sed '/^$/d' text > text.out`
