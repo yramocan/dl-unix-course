@@ -117,6 +117,6 @@
     
 8. Write the commands to assign the unique lines in the file names to the shell variable namelist.
 
-    - `namelist=$(sort names | uniq)`
+    - `namelist=$(sort -u names)`
     - `echo "$namelist" | wc -l`
     
