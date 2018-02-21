@@ -113,7 +113,7 @@
 7. Write the commands to count the number of characters stored in the shell variable text. Then write the commands to count all the alphabetic characters. (Hint: Use sed and wc.) What happens to special character sequences such as \n if they’re stored inside text?:
 
     - `echo $text | wc -c`
-    - `echo "012910He8329LLO382  W03ORLD8393" | sed 's/[0-9]//g' | wc -c`
+    - `echo $text | sed 's/[^a-zA-Z]//g' | wc -c`
     
 8. Write the commands to assign the unique lines in the file names to the shell variable namelist.
 
